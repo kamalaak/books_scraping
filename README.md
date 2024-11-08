@@ -7,7 +7,7 @@ This script scrapes book details from a website and saves the information to a C
 
     Input: CSV file with book titles and URLs.
     Output: CSV file with extracted book details.
-    Libraries: Uses httpx for HTTP requests and selectolax for HTML parsing.
+    Libraries: playwright, httpx for HTTP requests and selectolax for HTML parsing.
     Flow: Starts scraping from a specific URL (start_link) and processes subsequent books.
    
 
