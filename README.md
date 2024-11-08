@@ -9,7 +9,7 @@ This script scrapes book details from a website and saves the information to a C
     Output: CSV file with extracted book details.
     Libraries: Uses httpx for HTTP requests and selectolax for HTML parsing.
     Flow: Starts scraping from a specific URL (start_link) and processes subsequent books.
-    Dependencies: Requires httpx and selectolax Python libraries.
+   
 
     
 src.py: Scrapes all book links from the Noolulagam website.
